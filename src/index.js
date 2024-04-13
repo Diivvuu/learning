@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Data from './Data';
+// import Data from './Data';
 // import Mobile from './Mobile';
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
-
+import Form from './Form'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Data/>
+    <Form/>
+    {/* <Data/> */}
     {/* <App /> */}
     {/* <Mobile/> */}
   </React.StrictMode>
